@@ -22,10 +22,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create a Virtual Machine in Azure that is Windows 10, 4 vCPUs
 
 <h2>Installation Steps</h2>
+
 Step 1. Download <a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0">osTicket-Installation-Files.zip>
 
+
 Step 2. Unzip and extract those files
+
 Step 3. Install and enable IIS in Windows WITH CGI
+
 World Wide Web Services -> Application Development Features -> [X] CGI
 
 <h2>Inside osTicket folder Install</h2>
@@ -37,9 +41,7 @@ Step 3. Open “osTicket-Installation-Files” again and then unzip PHP 7.3.8 (p
 
 Step 4. Open “osTicket-Installation-Files” and install VC_redist.x86 and mysql-5.5.62-win32
         
-        Launch Configuration wizard ->
-        
-        Standard Configuration ->
+        Launch Configuration wizard -> Standard Configuration ->
               
               Username: root
               
@@ -62,30 +64,51 @@ Step 2. Reload IIS (Start then Stop the server)
 
 Step 1. Go to sites -> Default -> osTicket
 On the right, click “Browse *:80”
+
 Step 2. Some extentions are not enabled
+          
           > Go back to IIS, sites -> Default -> osTicket
+          
           > Double-click PHP Manager
+          
           > Click “Enable or disable an extension”
+          
           > Enable: php_imap.dll
+          
           > Enable: php_intl.dll
+          
           > Enable: php_opcache.dll
+
 Step 3. Refresh the osTicket site in your browser observe the changes
+
 Step 4. Rename: ost-config.php
+
           > From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+          
           > To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
 Step 5. Assign Permissions: ost-config.php
+
           > Disable inheritance -> Remove All
+          
           > New Permissions -> Everyone -> All
 
 <h2>Set up rest of osTicket</h2>
+
 Step 1. Setup your username and password
+
          > username: user1
+         
          > Password: Password1
 
 Step 2. from “osTicket installation files” install “HeidiSQL_12.3.0.6589_Setup”
+         
              > Double click -> check accept box -> ok ok ok
-             > Create new session -> click new root/root
-             > Create data base called “osTicket” -> rightclick dolphin -> create new -> database
+             
+             > Create new session -> click new root/root
+             
+             > Create data base called “osTicket” -> rightclick dolphin -> create new -> database
+
 You can now continue to set up from browser
                > MySQL Database: osTicket
                > MySQL Username: root
@@ -93,8 +116,10 @@ You can now continue to set up from browser
 <h2>osTicket is installed!!!</h2>
 
                > login page: http://localhost/osTicket/scp/login.php
-               > Username: user1
-               > Password: password1
+              
+               > Username: user1
+               
+               > Password: password1
 
 
 <p>
