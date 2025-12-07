@@ -118,11 +118,11 @@ You can now continue to set up from browser
 
 <h2>osTicket is installed!!!</h2>
 
-        > login page: http://localhost/osTicket/scp/login.php
+> login page: http://localhost/osTicket/scp/login.php
               
-        > Username: user1
+> Username: user1
                
-        > Password: password1
+> Password: password1
 
 
 <p>
