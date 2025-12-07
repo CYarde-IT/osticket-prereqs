@@ -103,16 +103,18 @@ Step 1. Setup your username and password
 
 Step 2. from “osTicket installation files” install “HeidiSQL_12.3.0.6589_Setup”
          
-             > Double click -> check accept box -> ok ok ok
-             
-             > Create new session -> click new root/root
+             > Open Heidi SQL -> Create new session -> root/root
              
-             > Create data base called “osTicket” -> rightclick dolphin -> create new -> database
+Step 3. Create data base called “osTicket”
 
 You can now continue to set up from browser
-               > MySQL Database: osTicket
-               > MySQL Username: root
-               > MySQL Password: root
+               
+               > MySQL Database: osTicket
+               
+               > MySQL Username: root
+               
+               > MySQL Password: root
+
 <h2>osTicket is installed!!!</h2>
 
                > login page: http://localhost/osTicket/scp/login.php
