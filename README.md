@@ -17,9 +17,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- 1 desktop/laptop computer
-- Microsoft Azure Account
-- Create a Virtual Machine in Azure that is Windows 10, 4 vCPUs
+> 1 desktop/laptop computer
+> Microsoft Azure Account
+> Create a Virtual Machine in Azure that is Windows 10, 4 vCPUs
 
 <h2>Installation Steps</h2>
 
@@ -67,54 +67,54 @@ On the right, click “Browse *:80”
 
 Step 2. Some extentions are not enabled
           
-          > Go back to IIS, sites -> Default -> osTicket
+> Go back to IIS, sites -> Default -> osTicket
           
-          > Double-click PHP Manager
+> Double-click PHP Manager
           
-          > Click “Enable or disable an extension”
+> Click “Enable or disable an extension”
           
-          > Enable: php_imap.dll
+> Enable: php_imap.dll
           
-          > Enable: php_intl.dll
+> Enable: php_intl.dll
           
-          > Enable: php_opcache.dll
+> Enable: php_opcache.dll
 
 Step 3. Refresh the osTicket site in your browser observe the changes
 
 Step 4. Rename: ost-config.php
 
-          > From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+> From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
           
-          > To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+> To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 Step 5. Assign Permissions: ost-config.php
 
-          > Disable inheritance -> Remove All
+> Disable inheritance -> Remove All
           
-          > New Permissions -> Everyone -> All
+> New Permissions -> Everyone -> All
 
 <h2>Set up rest of osTicket</h2>
 
 Step 1. Setup your username and password
 
-         > username: user1
+> username: user1
          
-         > Password: Password1
+> Password: Password1
 
 Step 2. from “osTicket installation files” install “HeidiSQL_12.3.0.6589_Setup”
          
-             > Open Heidi SQL -> Create new session -> root/root
+> Open Heidi SQL -> Create new session -> root/root
              
              
 Step 3. Create data base called “osTicket”
 
 You can now continue to set up from browser
                
-               > MySQL Database: osTicket
+> MySQL Database: osTicket
                
-               > MySQL Username: root
+> MySQL Username: root
                
-               > MySQL Password: root
+> MySQL Password: root
 
 <h2>osTicket is installed!!!</h2>
 
