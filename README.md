@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create a Virtual Machine in Azure that is Windows 10, 4 vCPUs
 
 <h2>Installation Steps</h2>
-Step 1. Download <a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0">osTicket-Installation-Files.zip
+Step 1. Download <a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0">osTicket-Installation-Files.zip>
 
 Step 2. Unzip and extract those files
 Step 3. Install and enable IIS in Windows WITH CGI
