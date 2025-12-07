@@ -105,6 +105,7 @@ Step 2. from “osTicket installation files” install “HeidiSQL_12.3.0.6589_S
          
              > Open Heidi SQL -> Create new session -> root/root
              
+             
 Step 3. Create data base called “osTicket”
 
 You can now continue to set up from browser
@@ -117,11 +118,11 @@ You can now continue to set up from browser
 
 <h2>osTicket is installed!!!</h2>
 
-               > login page: http://localhost/osTicket/scp/login.php
+        > login page: http://localhost/osTicket/scp/login.php
               
-               > Username: user1
+        > Username: user1
                
-               > Password: password1
+        > Password: password1
 
 
 <p>
