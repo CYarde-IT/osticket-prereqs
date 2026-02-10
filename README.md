@@ -17,9 +17,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-> 1 desktop/laptop computer
-> Microsoft Azure Account
-> Create a Virtual Machine in Azure that is Windows 10, 4 vCPUs
+ 1 desktop/laptop computer
+ Microsoft Azure Account
+ Create a Virtual Machine in Azure that is Windows 10, 4 vCPUs
 
 <h2>Installation Steps</h2>
 
@@ -49,11 +49,11 @@ This should be how your computer looks when you are extracting your files into t
 
 Step 4. Open “osTicket-Installation-Files” and install VC_redist.x86 and mysql-5.5.62-win32
         
-      After you install Launch Configuration wizard -> Standard Configuration ->
+After you install Launch Configuration wizard -> Standard Configuration ->
               
-              Username: root
+Username: root
               
-              Password: root
+Password: root
 
 Step 5. Open IIS as admin -> press "start" -> search IIS -> run as admin
 
@@ -79,37 +79,37 @@ This should be what you see when you click “Browse *:80”
 
 Step 2. Some extentions are not enabled
           
-> Go back to IIS, sites -> Default -> osTicket
+ Go back to IIS, sites -> Default -> osTicket
           
-> Double-click PHP Manager
+ Double-click PHP Manager
           
-> Click “Enable or disable an extension”
+ Click “Enable or disable an extension”
 
 <img width="1424" height="738" alt="image" src="https://github.com/user-attachments/assets/2f836a61-d1a6-459c-8e25-2bbe68053cd2" />
           
-> Enable: php_imap.dll
+ Enable: php_imap.dll
           
-> Enable: php_intl.dll
+ Enable: php_intl.dll
           
-> Enable: php_opcache.dll
+ Enable: php_opcache.dll
 
 Step 3. Refresh the osTicket site in your browser observe the changes
 
 Step 4. Rename: ost-config.php
 
-> From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+ From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
           
-> To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 Step 5. Assign Permissions: ost-config.php
 
-> Start by right clicking "ost-config.php" -> properties -> secutirity -> SYSTEM -> advanced
+ Start by right clicking "ost-config.php" -> properties -> secutirity -> SYSTEM -> advanced
 
 <img width="1466" height="773" alt="image" src="https://github.com/user-attachments/assets/e8f26795-5482-478a-b084-c74f72d57173" />
 
-> Disable inheritance -> Remove All inherited permissions from this object
+ Disable inheritance -> Remove All inherited permissions from this object
           
-> New Permissions -> Everyone -> All
+ New Permissions -> Everyone -> All
 
 <img width="487" height="630" alt="image" src="https://github.com/user-attachments/assets/c64022da-96f3-433f-8ae2-b98f514461f9" />
 
@@ -118,31 +118,31 @@ Step 5. Assign Permissions: ost-config.php
 
 Step 1. Setup your username and password
 
-> username: user1
+ username: user1
          
-> Password: Password1
+ Password: Password1
 
 Step 2. from “osTicket installation files” install “HeidiSQL_12.3.0.6589_Setup”
          
-> Open Heidi SQL -> Create new session -> root/root
+ Open Heidi SQL -> Create new session -> root/root
              
              
 Step 3. Create data base called “osTicket”
 
 You can now continue to set up from browser
                
-> MySQL Database: osTicket
+ MySQL Database: osTicket
                
-> MySQL Username: root
+ MySQL Username: root
                
-> MySQL Password: root
+ MySQL Password: root
 
 <h2>osTicket is installed!!!</h2>
 
 <img width="1920" height="948" alt="image" src="https://github.com/user-attachments/assets/401020c0-bcc8-486d-9087-c46eadce1d74" />
 
-> login page: http://localhost/osTicket/scp/login.php
+ login page: http://localhost/osTicket/scp/login.php
               
-> Username: user1
+ Username: user1
                
-> Password: password1
+ Password: password1
